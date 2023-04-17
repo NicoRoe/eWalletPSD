@@ -1,22 +1,140 @@
-:root{
-    --color-1: #74CDC3;
-    --color-2: #162535;
-    --color-3: #C75252;
-    
+:root {
+  --color-1: #74cdc3;
+  --color-2: #162535;
+  --color-3: #c75252;
 }
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    width: 100%;
+body {
+  width: 100%;
+  margin: auto;
 }
 
-h1{
-    font-size: 1.9em;
+
+=======
+h1 {
+  font-size: 6.5rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 90%;
 }
+
+.navbar {
+  width: 80%;
+  background-color: var(--color-1);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  height: 5.5em;
+  margin: auto;
+}
+
+.nav-left {
+  margin-left: 2em;
+}
+
+.nav-right ul {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  align-items: center;
+}
+
+.nav-right ul li {
+  margin-right: 2em;
+}
+
+.nav-right ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.download-button {
+  background-color: var(--color-2);
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: none;
+}
+
+.header {
+  width: 80%;
+  margin: auto;
+  height: 800px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 7rem;
+  padding-left: 8rem;
+  width: 100%;
+}
+
+.header-container h1 {
+  padding-bottom: 0.5em;
+}
+
+.header-columns {
+  display: flex;
+  width: 60em;
+  justify-content: space-between;
+}
+
+.header-left-column p {
+  font-size: 1.8em;
+  padding-bottom: 1.5em;
+}
+
+.header-button-download-now {
+  background-color: var(--color-1);
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 530;
+  padding: 5px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.5em;
+  height: 55px;
+}
+
+.header-right-column {
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 30px rgb(0 0 0 / 0.2);
+  z-index: 1;
+  background-color: white;
+}
+
+.header-right-column p {
+  font-size: 2em;
+}
+
+.header-img-phone {
+  border-radius: 50px;
+  position: relative;
+  left: 60rem;
+  top: -37rem;
+  width: 20rem;
+  z-index: 0;
+  -webkit-box-shadow: -46px 0px 50px -21px #cc4141,
+    -50px 0px 50px -30px rgba(161, 17, 17, 0.09);
+  box-shadow: -46px 0px 50px -21px #cc4141,
+    -50px 0px 50px -30px rgba(161, 17, 17, 0.09);
+}
+
+
  /* 2nd Section start  */
 .team-content {
     width: 80%;

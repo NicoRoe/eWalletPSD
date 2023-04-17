@@ -1,0 +1,19 @@
+:root{
+    --color-1: #74CDC3;
+    --color-2: #162535;
+    --color-3: #C75252;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+h1{
+    font-size: 1.9em;
+}

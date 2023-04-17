@@ -77,7 +77,7 @@ section {
   z-index: 10;
   margin: 15px;
   position: relative;
-  left: 10%;
+  left: 7%;
 }
 
 .aboutUsInnerContainer2 {
@@ -88,13 +88,12 @@ section {
   z-index: 10;
   margin: 15px;
   position: relative;
-  right: 10%;
+  right: 7%;
 }
 
 .aboutUsImage1,
 .aboutUsImage2 {
   width: 70%;
-  z-index: 0;
   object-fit: contain;
 }
 
